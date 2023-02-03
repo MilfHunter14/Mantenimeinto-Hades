@@ -22,19 +22,32 @@ A continuación, se detallan los pasos que se tienen que seguir de acuerdo con l
 
 - Abre una terminal desde Laragon.
 - Clona el proyecto en la carpeta *\www* de Laragon desde nuestro repositorio de GitHub.
-- Ejecuta el siguiente comando dentro de la terminal de Laragon: *cd [**Hades-mantenimeinto**]*.
-- Instala todos sus componentes con el siguiente comando: *composer install*.
+- Ejecuta el siguiente comando dentro de la terminal de Laragon: ***cd [Hades-mantenimeinto]***.
+- Instala todos sus componentes con el siguiente comando: ***composer install***.
 
 ### Configuración de credenciales
 
 Laravel necesita credenciales para funcionar, y por lo general, se asignan manualmente en el archivo *.env*. Al clonar desde GitHub estos parámetros no se asignan, pero siguiendo estos pasos se soluciona.
 
-- Ejecuta el siguiente comando para crear otro archivo *.env*: *cp .env.example .env*.
-- Ejecuta el siguiente comando: *php artisan key:generate*.
+- Ejecuta el siguiente comando para crear otro archivo *.env*: ***cp .env.example .env***.
+- Ejecuta el siguiente comando: ***php artisan key:generate***.
 
-#### Otras
+#### Parámetros importantes del archivo .env
 
-- Activa el servidor de artisan con el siguiente comando: *php artisan serve*.
+El archivo *.env* necesita configurar los parámetros de la base de datos y del servicio de correo con Mailtrap. A continuación, se detallan los pasos para su configuración.
+
+##### Base de Datos
+
+- Ubícate en la sección de los parámetros de la base de datos y asigna en el campo **DB_DATABASE** el nombre que le asignaste a la base de datos para *Hades*.
+
+##### Mailtrap
+
+- Crea una cuenta de [Mailtrap](https://mailtrap.io/register/signup?ref=header) para que se te asignan las credenciales.
+- Una vez obteniendo las credenciales, asignalas en cada uno de los parámetros del archivo *.env*.
+
+### Verificación de instalación
+
+- Activa el servidor de artisan con el siguiente comando: ***php artisan serve***.
 - Abre el navegador web para probar que el proyecto responda a la *URL* que te asigna Laravel.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
