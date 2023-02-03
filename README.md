@@ -14,15 +14,13 @@ Favor de seguir cada uno de los pasos, siguiendo un orden cronológico.
 - Dírigite a la página oficial de [Laragon](https://laragon.org/download/).
 - Una vez estés navegando por la página web, ubícate en la sección *Download*.
 - Por último, descarga la versión completa de acuerdo a las características de tu equipo.
-- **Nota:** Laragon ya trae consigo una versión de PHP, con el inconveniente de que es una versión vieja y podría haber problemas con la funcionalidad del software. Se sugiere descargar aparte.
+- **Nota:** Se sugiere visualizar este [video](https://youtu.be/RHnuDVlFG-A) para comprender de una mejor manera los pasos anteriores.
 
 ### Creación del Proyecto en Laravel
 
-- A continuación, se tiene que seguir una serie de pasos de acuerdo con la documentación de [Laravel](https://laravel.com/docs/9.x).
-- **Nota:** Se sugiere visualizar este [video](https://youtu.be/RHnuDVlFG-A) para comprender de una mejor manera los pasos anteriores.
+A continuación, se detallan los pasos que se tienen que seguir de acuerdo con la documentación de [Laravel](https://laravel.com/docs/9.x).
 
-### ...
-
+- A
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
