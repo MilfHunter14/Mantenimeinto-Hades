@@ -22,18 +22,18 @@ A continuación, se detallan los pasos que se tienen que seguir de acuerdo con l
 
 - Abre una terminal desde Laragon.
 - Clona el proyecto en la carpeta *\www* de Laragon desde nuestro repositorio de GitHub.
-- Ejecuta el siguiente comando dentro de la terminal de Laragon: 
+- Ejecuta el siguiente comando dentro de la terminal de Laragon. 
   - ***cd [Hades-mantenimeinto]***.
-- Instala todos sus componentes con el siguiente comando: 
+- Instala todos sus componentes con el siguiente comando.
   - ***composer install***.
 
 ### Configuración de credenciales
 
 Laravel necesita credenciales para funcionar, y por lo general, se asignan manualmente en el archivo *.env*. Al clonar desde GitHub estos parámetros no se asignan, pero siguiendo estos pasos se soluciona.
 
-- Ejecuta el siguiente comando para crear otro archivo *.env*: 
+- Ejecuta el siguiente comando para crear otro archivo *.env*. 
   - ***cp .env.example .env***.
-- Ejecuta el siguiente comando: 
+- Ejecuta el siguiente comando.
   - ***php artisan key:generate***.
 
 #### Parámetros importantes del archivo .env
@@ -51,7 +51,7 @@ El archivo *.env* necesita configurar los parámetros de la base de datos y del 
 
 ### Verificación de instalación
 
-- Activa el servidor de artisan con el siguiente comando: 
+- Activa el servidor de artisan con el siguiente comando. 
   - ***php artisan serve***.
 - Abre el navegador web para probar que el proyecto responda a la *URL* que te asigna Laravel.
 
