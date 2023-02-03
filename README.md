@@ -3,6 +3,18 @@
 El software Hades está construido con la tecnología de Laravel, por lo que es indispensable descargar el framewrok. A continuación, se van a detallar los pasos de una manera clara para ayudarte en el proceso de instalación. 
 Favor de seguir cada uno de los pasos, siguiendo un orden cronológico.
 
+### Consideraciones iniciales
+
+- Antes de ir directamente con la instalación, asegúrate de que tengas instalado PHP y Composer instalados. Laravel se basa en PHP y Composer es el administrador de paquetes de ese lenguaje, por lo que serán indispensables.
+- Se sugiere descargar un entorno de desarrollo, tales como Laragon o XAMPP, para administrar de una mejor manera el sistema gestor de bases de datos, el servidor web Apache y los intérpretes del lenguaje.
+- **Nota:** Sugerimos descargar Laragon, tiene mejor compatibilidad con Laravel que XAMPP.
+
+### Instalación de Laragon
+
+- Dírigite a la página oficial de [Laragon](https://laragon.org/download/).
+- Una vez estés navegando por la página web, ubícate en la sección *Download*.
+- Por último, descarga la versión completa de acuerdo a las características de tu equipo.
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
