@@ -47,6 +47,5 @@
   <x-editar></x-editar>
   <x-restaurar></x-restaurar>
   <x-correo></x-correo>
-  <x-alerta-actualizar-imagen></x-alerta-actualizar-imagen>
 
 </body>
