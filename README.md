@@ -1,4 +1,7 @@
-PASOS DE INSTALACIÓN PARA EL SOFTWARE HADES
+## Pasos de instalación software Hades
+
+El software Hades está construido con la tecnología de Laravel, por lo que es indispensable descargar el framewrok. A continuación, se van a detallar los pasos de una manera clara para ayudarte en el proceso de instalación. 
+Favor de seguir cada uno de los pasos, siguiendo un orden cronológico.
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
