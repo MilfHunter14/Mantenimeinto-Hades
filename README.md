@@ -1,3 +1,20 @@
+## Descripción del proyecto
+
+Hades es un proyecto creado con Laravel que tiene como propósito gestionar un negocio de sneakers. Su estructura consiste en una landingpage para que el usuario conozca el servicio y productos que ofrece la tienda y una parte de administrador, en la cuál, es necesario crear o tener una cuenta para realizar operaciones. Contamos con tres tablas: una de empleados, otra de sneakers y una última de ventas (todas con las operaciones CRUD).
+
+### Relaciones
+- Empleados → Ventas: 1:M
+- Ventas → Sneakers: N:M (Fundamente de N+1)
+
+Una vez sabiendo esto, es necesario que existan empleados y sneakers para poder crear una venta.
+
+### Restricciones
+
+- Un usuario no puede modificar ni eliminar una venta que no haya sido creada por él.
+- De la misma manera, en caso de eliminar alguna venta, ésta se almacenará en una papelera de reciclaje antes de ser eliminada permanentemente para que en caso de que haya una confusión, pueda ser restaurada correctamente. 
+- Cada vez que se realice una venta, se le podrá notificar a quien realizó la venta si fue registrada correctamente y se le enviará una notificación vía email. -
+Esperamos les pueda servir para una mejor comprensión de nuestro proyecto.
+
 ## Pasos de instalación software Hades
 
 El software Hades está construido con la tecnología de Laravel, por lo que es indispensable descargar el framework. A continuación, se van a detallar los pasos de una manera clara para ayudarte en el proceso de instalación. 
