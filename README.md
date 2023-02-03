@@ -11,10 +11,10 @@ Favor de seguir cada uno de los pasos, siguiendo un orden cronológico.
 
 ### Instalación de Laragon
 
+- - **Nota:** Se sugiere visualizar este [video](https://youtu.be/RHnuDVlFG-A) para comprender de una mejor manera los siguientes pasos.
 - Dírigite a la página oficial de [Laragon](https://laragon.org/download/).
 - Una vez estés navegando por la página web, ubícate en la sección *Download*.
 - Por último, descarga la versión completa de acuerdo a las características de tu equipo.
-- **Nota:** Se sugiere visualizar este [video](https://youtu.be/RHnuDVlFG-A) para comprender de una mejor manera los pasos anteriores.
 
 ### Creación del Proyecto en Laravel
 
