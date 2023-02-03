@@ -12,7 +12,8 @@ Una vez sabiendo esto, es necesario que existan empleados y sneakers para poder 
 
 - Un usuario no puede modificar ni eliminar una venta que no haya sido creada por él.
 - De la misma manera, en caso de eliminar alguna venta, ésta se almacenará en una papelera de reciclaje antes de ser eliminada permanentemente para que en caso de que haya una confusión, pueda ser restaurada correctamente. 
-- Cada vez que se realice una venta, se le podrá notificar a quien realizó la venta si fue registrada correctamente y se le enviará una notificación vía email. -
+- Cada vez que se realice una venta, se le podrá notificar a quien realizó la venta si fue registrada correctamente y se le enviará una notificación vía email.
+
 Esperamos les pueda servir para una mejor comprensión de nuestro proyecto.
 
 ## Pasos de instalación software Hades
