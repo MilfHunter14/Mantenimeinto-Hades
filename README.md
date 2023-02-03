@@ -46,7 +46,7 @@ El archivo *.env* necesita configurar los parámetros de la base de datos y del 
 
 ##### Mailtrap
 
-- Crea una cuenta de [Mailtrap](https://mailtrap.io/register/signup?ref=header) para que se te asignan las credenciales.
+- Crea una cuenta de [Mailtrap](https://mailtrap.io/register/signup?ref=header) para que tengas acceso a las credenciales de Mailtrap.
 - Una vez obteniendo las credenciales, asignalas en cada uno de los parámetros del archivo *.env*.
 
 ### Verificación de instalación
