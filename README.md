@@ -67,6 +67,17 @@ El archivo *.env* necesita configurar los parámetros de la base de datos y del 
 - Crea una cuenta de [Mailtrap](https://mailtrap.io/register/signup?ref=header) para que tengas acceso a las credenciales de Mailtrap.
 - Una vez obteniendo las credenciales, asignalas en cada uno de los parámetros del archivo *.env*.
 
+### Instalación de paquetes y dependencias
+
+- Ejecuta los siguientes comandos, de manera secuencial.
+  - ***npm install***.
+  - ***npm update***(sugerido).
+ 
+ ### Migración de las tablas de la base de datos
+
+- Ejecuta el siguiente comando.
+  - ***php artisan migrate***.
+
 ### Verificación de instalación
 
 - Activa el servidor de artisan con el siguiente comando. 
