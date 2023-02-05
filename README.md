@@ -44,6 +44,7 @@ A continuación, se detallan los pasos que se tienen que seguir de acuerdo con l
   - ***cd [Hades-mantenimeinto]***.
 - Instala todos sus componentes con el siguiente comando.
   - ***composer install***.
+  - ***composer update*** (sugerido).
 
 ### Configuración de credenciales
 
