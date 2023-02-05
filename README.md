@@ -71,7 +71,7 @@ El archivo *.env* necesita configurar los parámetros de la base de datos y del 
 
 - Ejecuta los siguientes comandos, de manera secuencial.
   - ***npm install***.
-  - ***npm update***(sugerido).
+  - ***npm update*** (sugerido).
  
  ### Migración de las tablas de la base de datos
 
